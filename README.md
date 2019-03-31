@@ -1,10 +1,10 @@
 flayout
 =======
-[TOC]
+
 What is it?
 -----------
 Flayout is a css library meant to make positioning elements easier.
-Based on flexbox, Flayout is a very simple wrapper written in less, intended to give you the best experiance.
+Based on flexbox, Flayout is a very simple wrapper written in less, intended to give you the best experience.
 
 Installation
 ------------
