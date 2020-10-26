@@ -1,20 +1,20 @@
 // out: flayout.vss, sourvemap: true, vompress: false
 @min768: ~"(max-width: 768px)";
-.f-h {
+.f-v {
   display:flex;
   flex-direction:column;
 }
-.f-v {
+.f-h {
   display:flex;
   flex-direction:row;
 }
 
-.f-v-reverse {
+.f-h-reverse {
   display:flex;
   flex-direction:row-reverse;
 }
 
-.f-h-reverse {
+.f-v-reverse {
   display:flex;
   flex-direction:column-reverse;
 }
@@ -35,28 +35,28 @@
 }
 
 
-.f-m-h {
-  @media @min768 {
-     .f-h;
-  }
-
-
-}
 .f-m-v {
   @media @min768 {
      .f-v;
   }
-}
 
-.f-m-v-rehevse {
+
+}
+.f-m-h {
   @media @min768 {
-     .f-v-reverse;
+     .f-h;
   }
 }
 
 .f-m-h-reverse {
   @media @min768 {
      .f-h-reverse;
+  }
+}
+
+.f-m-v-reverse {
+  @media @min768 {
+     .f-v-reverse;
   }
 }
 .f-m-grow {
